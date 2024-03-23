@@ -1,0 +1,318 @@
+/* MOBILE SCREENS CSS  */
+
+@media only screen and (max-width: 500px) {
+  /* NAVBAR  */
+  nav {
+    padding: 20px;
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+
+  nav button {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+
+  /* /////////////////////////////// */
+
+  /* HERO SECTION  */
+
+  .green-color {
+    display: none;
+  }
+  .blue-color {
+    display: none;
+  }
+  .green-color-right {
+    right: 0;
+    top: 0;
+  }
+  .hero-section h1 {
+    font-size: 32px;
+    z-index: 50;
+  }
+  .hero-section p {
+    font-size: 16px;
+    padding: 0 20px;
+    padding-bottom: 20px;
+    z-index: 50;
+  }
+  .hero-section button {
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+  .hero-section-logo {
+    margin-left: -150px;
+  }
+
+  /* //////////////////////////////////////// */
+
+  /* REVOLUTION AND GUEST EXPERIENCE SECTION  */
+
+  #revolutionize-and-guest-exp {
+    padding: 0 20px;
+  }
+
+  #green-color {
+    top: -10%;
+  }
+
+  #blue-color {
+    display: none;
+  }
+
+  .guest-exp-heading {
+    font-size: 32px;
+    padding-bottom: 20px;
+    margin-top: 110px;
+  }
+
+  .guest-exp-desc {
+    padding-bottom: 20px;
+  }
+  .card {
+    padding: 0 10px;
+  }
+
+  .guest-exp-cards {
+    padding: 10px 20px;
+  }
+
+  .card-heading {
+    font-size: 20px;
+  }
+
+  .card-desc {
+    font-size: 14px;
+  }
+
+  /* ////////////////////////////////////////////// */
+
+  /* HAPPY HOSTS / RESPONSE ACCURACY / LATE NIGHT QUERIES */
+
+  #percentage {
+    margin-top: 36px;
+    background-image: none;
+    padding: 36px 20px;
+  }
+
+  #gradient-green {
+    right: 0;
+  }
+
+  #gradient-blue {
+    display: none;
+  }
+
+  .percentage-heading {
+    font-size: 30px;
+  }
+
+  .percentage-text {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  /* ////////////////////////////////////////// */
+
+  /* WHY CHOOSE US SECTION  */
+
+  .why-choose-us-heading {
+    font-size: 30px;
+  }
+
+  .why-choose-us-explain-wrapper {
+    padding: 0 20px;
+  }
+
+  .gradient-bg {
+    top: 0;
+    left: 0;
+  }
+
+  .why-choose-us-explaination {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  /* ////////////////////////////////////////////////////////////// */
+
+  /* HOST WHILE YOU SLEEP SECTION  */
+
+  /* HEADING OF HOST WHILE YOU SLEEP  */
+
+  .host-while-sleep-heading {
+    font-size: 30px;
+    padding-top: 55px;
+  }
+
+  .host-cards-wrapper {
+    padding: 0 20px;
+  }
+
+  .host-card-bg-gradient {
+    top: 0;
+  }
+
+  .host-card-heading {
+    font-size: 20px;
+  }
+
+  .host-card-bg-desc {
+    font-size: 14px;
+  }
+  /* //////////////////////////////////////////////////////// */
+
+  /* QUESTIONS SECTION  */
+
+  .all-ques-wrapper {
+    padding: 40px 20px;
+  }
+
+  .ques-sec-gradient {
+    top: 0;
+  }
+
+  .question-div {
+    padding: 10px;
+  }
+
+  /* ///////////////////////////////////////////////////////// */
+
+  /* GET STARTED SECTION  */
+
+  .getstarted {
+    padding: 40px 20px;
+  }
+
+  .getstarted-wrapper {
+    padding: 10px;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .getstarted-btn {
+    padding: 12px 20px;
+  }
+
+  /* /////////////////////////////////////////////////////////////////////////////// */
+
+  /* GET IN TOUCH SECTION  */
+
+  .get-in-touch {
+    padding: 40px 20px;
+  }
+
+  .get-in-touch-wrapper {
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .left-side {
+    gap: 10px;
+  }
+
+  .get-in-touch-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .input {
+    width: 280px;
+    color: white;
+  }
+  .text-area {
+    width: 280px;
+  }
+
+  .send-msg-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  footer {
+    padding: 40px 20px;
+  }
+
+  .social-links-and-logo {
+    flex-direction: column;
+  }
+
+  .social-links {
+    padding-left: 10px;
+  }
+  .copy-right-and-others {
+    flex-direction: column;
+    font-size: 12px;
+    gap: 20px;
+  }
+}
+
+/* ///////////////////////////////////////////////// */
+
+/* TABLET SCREENS  */
+
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+  nav {
+    padding: 20px;
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+  .logo-and-start-btn {
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .blue-color {
+    top: 3%;
+  }
+  .green-color {
+    top: 0;
+  }
+  .guest-exp-cards {
+    padding: 56px 20px;
+  }
+  #percentage {
+    padding: 72px 20px;
+  }
+  .host-cards-wrapper {
+    padding: 0 20px;
+  }
+  .all-ques-wrapper {
+    padding: 40px 20px;
+    margin-top: 30px;
+  }
+  .getstarted {
+    padding: 80px 20px;
+  }
+
+  .getstarted-wrapper {
+    padding: 32px 88px;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+  .get-in-touch {
+    padding: 60px 20px;
+  }
+  .get-in-touch-wrapper {
+    padding: 30px;
+  }
+  .input {
+    width: 300px;
+  }
+  .text-area {
+    width: 300px;
+  }
+  .send-msg-btn {
+    padding: 16px 20px;
+    font-size: 14px;
+  }
+  footer {
+    padding: 72px 20px;
+  }
+}

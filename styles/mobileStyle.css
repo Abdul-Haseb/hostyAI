@@ -170,6 +170,10 @@
     padding: 40px 20px;
   }
 
+  .question-sec-heading {
+    font-size: 30px;
+  }
+
   .ques-sec-gradient {
     top: 0;
   }
@@ -282,6 +286,7 @@
   .host-cards-wrapper {
     padding: 0 20px;
   }
+
   .all-ques-wrapper {
     padding: 40px 20px;
     margin-top: 30px;

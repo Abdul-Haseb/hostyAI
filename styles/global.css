@@ -562,6 +562,18 @@ nav button:hover {
   backdrop-filter: blur(15px);
 }
 
+.question-sec-heading {
+  color: #fcfdfd;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 120%; /* 57.6px */
+}
+.answer {
+  font-size: 14px;
+  padding-top: 10px;
+}
+
 /* //////////////////////////////////////////////////////////// */
 
 /* GET STARTED SECTION  */
